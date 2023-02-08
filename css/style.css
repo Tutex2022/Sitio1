@@ -47,7 +47,7 @@ a:hover{color:black;
 }
 
 main{display: flex;
-        flex-direction: row;
+    flex-direction: row;
 }
 
 main{width: 90%;
@@ -96,3 +96,44 @@ section{
 .titulo{
     text-align: center;
 }
+.maps p{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+form{margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+.datos{background-color: beige;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.datos label{padding-top: 5px;
+    padding-left: 200px;
+    padding-top: 5px;
+    flex-basis: 45%;
+}
+
+.datos input{margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+}
+
+.datos1 {background-color:beige;
+  display: flex;
+  flex-direction: column;
+  padding-left: 200px;
+  
+}
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../image/LogoMightyducks-01.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Mighty Ducks Hockey League</h1>
+        <h2 class="title1">Formulario</h2>
+        <figure><img src="../image/LogoMightyducks-01.png"  alt="Logo del club"></figure>
+    </header>
+
+    <main>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./AboutMDHL.html">About MDHL</a></li>
+                    <li><a href="./Contact.html">Contact</a></li>
+                    <li><a href="./Horarios.html">Horarios</a></li>
+                    <li><a href="./Reglas.html">Reglas y Politicas</a></li>
+                    <li><a href="./formulario.html">Formulario</a></li>
+                </ul>
+                
+            </nav>
+        </aside>
+
+        <section>
+            <h2 class="titulo">
+                Registration Form
+            </h2>
+            <form action="./showdata.html" method="get"></form>
+
+            <fieldset class="datos">
+                <legend>Datos Personales</legend>
+
+                <label for="name">Player’s First Name:</label>
+                <input type="text" id="name" name="nom" placeholder="Enter your name" required>
+                
+                <label for="lastname"> Last Name:</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter your last name">
+                
+                <label for="address">Street Address:</label>
+                <input type="text" id="address" name="address" placeholder="Enter your Street Address">
+                 
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" placeholder="Enter your City">
+                
+                <label for="zipcode">Zip Code:</label>
+                <input type="text" id="zipcode" name="zipcode" placeholder="Enter your Zip Code">
+                
+                <label for="date">Birth Date:</label>
+                <input type="date" id="date" name="date">
+                
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender" name="gender" value="Female">Female
+                <input type="radio" id="gender1" name="gender" value="Male">Male
+                
+                <label for="grade">Grade:</label>
+                <input type="radio" id="grade" name="grade" value="Pre-School">Pre-School
+                <input type="radio" id="grade1" name="grade" value="1">1st
+                <input type="radio" id="grade2" name="grade" value="2">2nd
+                <input type="radio" id="grade3" name="grade" value="3">3rd                    
+                <input type="radio" id="grade4" name="grade" value="4">4th
+                <input type="radio" id="grade5" name="grade" value="5">5th
+                
+            </fieldset>
+
+            <fieldset class="datos1">
+                <legend>Which elementary school do you live near?</legend>
+                
+                <label for="school">Closest School:</label>
+                <input type="checkbox" name="AJ Katzenmaier" id="school" value="AJ Katzenmaier">AJ Katzenmaier
+                <input type="checkbox" name="Greenbay" value="Greenbay">Greenbay
+                <input type="checkbox" name="Howard A Yeager" value="Howard A Yeager">Howard A Yeager
+                <input type="checkbox" name="Marjorie PHart" value="Marjorie PHart">Marjorie PHart
+                <input type="checkbox" name="North Elementary" value="North Elementary">North Elementary
+                <input type="checkbox" name="South Elementary" value="South Elementary">South Elementary
+            </fieldset>
+
+            <fieldset class="datos1">
+                <legend>What position(s) do you normally play? (check all that apply)</legend>
+                <label for="position">Position</label>
+                <input type="checkbox" id="position">Forward
+                <input type="checkbox" id="position1">Defense
+                <input type="checkbox" id="position2">Midfield
+                <input type="checkbox" id="position3">Goalkeeper
+            </fieldset>
+
+            <fieldset class="datos1">
+                <legend>Uniform Size:</legend>
+                <label for="uniform"></label>
+                <input type="radio" id="uniform" name="uniform">Youth Small
+                <input type="radio" id="uniform2" name="uniform">Youth Medium
+                <input type="radio" id="uniform3" name="uniform">Youth Large
+                <input type="radio" id="uniform4" name="uniform">Small
+                <input type="radio" id="uniform5" name="uniform">Medium
+                <input type="radio" id="uniform6" name="uniform">Large
+                <input type="radio" id="uniform7" name="uniform">Extra-Large
+            </fieldset>
+
+        </section>
+
+        
+           
+                 
+        
+    </main>
+</body>
+</html>
