@@ -86,6 +86,10 @@ section{
     margin-left: 40px;
 }
 
+div{margin-top: 40px;
+
+}
+
 .letras{
     list-style-type: lower-alpha;
 }
@@ -109,9 +113,9 @@ form{margin: 0 auto;
 }
 
 fieldset{
-    padding-bottom: 5px;
-    padding-top: 5px;
-    margin-top: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
 }
 .datos{background-color: beige;
     display: flex;
@@ -121,7 +125,6 @@ fieldset{
 
 .datos label{padding-top: 5px;
     padding-left: 200px;
-    padding-top: 5px;
     flex-basis: 45%;
 }
 
@@ -130,10 +133,57 @@ margin-bottom: 5px;
 margin-left: 5px;
 }
 
-.datos1 {background-color:beige;
-  display: flex;
-  flex-direction: column;
-  padding-left: 200px;
-  
+.datos1 {background-color: beige;
+    display: flex;
+    flex-direction:column;
+    padding-bottom: 20px;
 }
 
+.datos1 label{
+    padding-left: 200px;
+    padding-bottom: 10px;
+    border-bottom: 100px;
+}
+
+.datos1 input{
+position: relative;
+top: 20px;
+}
+
+.datos2 {background-color: beige;
+    display: flex;
+    flex-direction:column;
+    padding-bottom: 20px;
+}
+
+.datos2 label{
+    padding-left: 200px;
+    padding-bottom: 10px;
+    border-bottom: 100px;
+}
+
+.datos2 input{
+position: relative;
+top: 20px;
+}
+
+.datos3 {background-color: beige;
+    display: flex;
+    flex-direction:column;
+    padding-bottom: 20px;
+}
+
+.datos3 label{
+    padding-left: 200px;
+    padding-bottom: 10px;
+    border-bottom: 100px;
+}
+
+.datos3 input{
+position: relative;
+top: 20px;
+}
+
+.enviar{
+    text-align: center;
+}
